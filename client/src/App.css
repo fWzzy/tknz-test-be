@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 64px auto;
+  display: flex;
+}
+
+.container .col {
+  flex: 1 1 50%;
+  flex-wrap: wrap;
+  padding: 8px;
+}
+
+.col input {
+  width: 50%;
+  height: 28px;
+  border: 1px solid rgb(179, 179, 179);
+  border-radius: 4px;
+  outline: none;
+  padding: 0px 8px;
+  font-size: 14px;
+}
